@@ -1,0 +1,56 @@
+﻿@model IEnumerable<CRUD.Model.Model.Filho>
+
+<form>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="input-group">
+                <span class="">
+                    <input type="radio" class="" name="tabela" placeholder="Search for..." value="Pai">
+                    Pai
+                </span>
+                <span class="">
+                    <input type="radio" class="" name="tabela" placeholder="Search for..." value="Filho">
+                    Filho
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-md-2">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <input type="text" class="form-control" name="procurar" placeholder="Search for...">
+                    <button class="btn btn-default" type="submit">Go!</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-md-8"></div>
+    </div><!-- /.row -->
+</form>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Idade)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Idade)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", "Filho", new { id = item.Id }, "") |
+            @Html.ActionLink("Details", "Details", "Filho", new { id = item.Id }, "") |
+            @Html.ActionLink("Delete", "Delete", "Filho", new { id = item.Id }, "")
+        </td>
+    </tr>
+}
+
+</table>

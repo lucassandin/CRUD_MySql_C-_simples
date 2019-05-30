@@ -112,6 +112,7 @@ namespace CRUD.Mvc.Controllers
             } catch(Exception ex)
             {
                 return RedirectToAction("Error");
+                throw ex;
             }
         }
 

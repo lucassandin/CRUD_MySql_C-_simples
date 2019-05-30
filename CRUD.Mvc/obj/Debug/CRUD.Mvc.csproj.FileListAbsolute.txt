@@ -60,11 +60,7 @@ C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\System.Web.WebPages.Deploym
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\System.Web.WebPages.dll
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\System.Web.WebPages.Razor.dll
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\WebGrease.dll
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\NHibernate.dll
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\MySql.Data.dll
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Remotion.Linq.dll
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Remotion.Linq.EagerFetching.dll
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Iesi.Collections.dll
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Google.Protobuf.dll
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\BouncyCastle.Crypto.dll
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\CRUD.Model.pdb
@@ -79,13 +75,11 @@ C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\System.Web.WebPages.Razor.x
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Newtonsoft.Json.xml
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Antlr3.Runtime.pdb
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\NHibernate.xml
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\MySql.Data.xml
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Remotion.Linq.xml
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Remotion.Linq.EagerFetching.xml
-C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Iesi.Collections.xml
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\obj\Debug\CRUD.Mvc.csprojAssemblyReference.cache
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\obj\Debug\CRUD.Mvc.csproj.CoreCompileInputs.cache
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\obj\Debug\CRUD.Mvc.csproj.CopyComplete
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\obj\Debug\CRUD.Mvc.dll
 C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\obj\Debug\CRUD.Mvc.pdb
+C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Google.Protobuf.pdb
+C:\Users\Sandin\Documents\Projetos\CRUD\CRUD.Mvc\bin\Google.Protobuf.xml

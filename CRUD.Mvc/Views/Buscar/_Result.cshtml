@@ -1,0 +1,75 @@
+﻿@model IEnumerable<CRUD.Mvc.ViewModels.PaiFilhoViewModels>
+
+
+<form>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="input-group">
+                <span class="">
+                    <input type="radio" class="" name="tabela" placeholder="Search for..." value="Pai">
+                    Pai
+                </span>
+                <span class="">
+                    <input type="radio" class="" name="tabela" placeholder="Search for..." value="Filho">
+                    Filho
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-md-2">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <input type="text" class="form-control" name="procurar" placeholder="Search for...">
+                    <button class="btn btn-default" type="submit">Go!</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-md-8"></div>
+    </div><!-- /.row -->
+</form>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IdPai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cpf)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdFilho)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Filho)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Idade)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdPai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cpf)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdFilho)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Filho)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Idade)
+        </td>
+    </tr>
+}
+
+</table>
