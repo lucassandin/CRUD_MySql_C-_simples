@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Buscar", "Buscar", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <span class="">
+                    <input type="radio" class="" name="tabela" placeholder="Search for..." value="Pai">
+                    Pai
+                </span>
+                <span class="">
+                    <input type="radio" class="" name="tabela" placeholder="Search for..." value="Filho">
+                    Filho
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+        <div class="col-lg-6">
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <button class="btn btn-default" type="submit">Go!</button>
+                </span>
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+
+
+}
+
