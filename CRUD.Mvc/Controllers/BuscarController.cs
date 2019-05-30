@@ -8,8 +8,15 @@ namespace CRUD.Mvc.Controllers
 {
     public class BuscarController : Controller
     {
+        
+
         // GET: Buscar
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Buscar()
         {
             return View();
         }

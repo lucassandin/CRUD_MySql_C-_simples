@@ -1,5 +1,8 @@
-﻿using System;
+﻿using CRUD.Model.DB;
+using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +18,7 @@ namespace CRUD.Model.ModelsDao
         {
             try
             {
-                string sql = $"select * from {table}";
+                string sql = "";
 
                 var connection = new MySqlConnection(Dao.connectionstring);
                 connection.Open();
